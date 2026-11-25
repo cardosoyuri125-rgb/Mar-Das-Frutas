@@ -1,0 +1,12 @@
+MAR DAS FRUTAS — RELÓGIO GLOBAL (protótipo)
+1. Substitua server.js e package.json no repositório GitHub pelos arquivos desta pasta.
+2. O Render fará novo deploy automaticamente se o repositório estiver conectado.
+3. Use o HTML Mar_das_Frutas_v12_Multiplayer_Relogio_Global.html.
+4. /health mostra o estado do servidor e /world-clock mostra os horários globais.
+
+IMPORTANTE:
+Esta versão sincroniza os prazos globais do relógio entre clientes. Ela NÃO transforma ainda
+o spawn do Rei do Mar, a fruta física do mapa ou o estoque em eventos autoritativos únicos
+replicados para todos. O HTML original ainda executa a lógica local de spawn. Isso exige
+uma próxima alteração de sincronização dos próprios eventos e seus dados.
+O cronograma é baseado em epoch fixo, portanto não reinicia quando o Render dorme ou reinicia.
